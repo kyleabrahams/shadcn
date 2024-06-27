@@ -2,11 +2,12 @@ import { Input } from "@/components/ui/input";
 import  { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
 
-type Propd = {
+type Props = {
     placeholder?: string,
 }
 
 export function SearchInput ({ placeholder }: Props) {
+    
     return (
         <div className="border rounded-lg flex justify-between items-center ">
             <Input
