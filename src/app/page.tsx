@@ -1,11 +1,11 @@
 import  { Button } from "@/components/ui/button";
-import { SearchInput } from "@/components/SearchInput";
+// import { SearchInput } from "@/components/SearchInput";
 
 export default function Home() {
   return (
     <main className="h-screen flex flex-col gap-2 justify-center items-center">
     <form role="search">
-      <SearchInput />
+      {/* <SearchInput /> */}
     </form>
     <Button>Default</Button>
     <Button size='sm'>small</Button>
